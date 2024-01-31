@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Country from './Components/Country'
-import { list } from 'postcss'
+
 
 function App() {
   const [countries,setCountries] = useState([])
